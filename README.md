@@ -61,4 +61,5 @@ Work in progress...
 - A more readable [MIDI Control Change Messages](http://nickfever.com/music/midi-cc-list) table
 - [Encoder Library](https://www.pjrc.com/teensy/td_libs_Encoder.html)
 - [Relative MIDI Mapping](http://tutorials.renoise.com/wiki/MIDI_Mapping)
+- [Notes and Volts](http://www.notesandvolts.com)
 
