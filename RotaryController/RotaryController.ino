@@ -59,7 +59,9 @@ void readEncoders() {
     byte value = encoders[i]->read();
     if (value > 0) {
       Serial.print("Encoder changed: ");
-      Serial.println(i, DEC);
+      Serial.print(i, DEC);
+      Serial.print(" ");
+      Serial.println(value, DEC);
       byte cc = encoders[i]->ccNumber;
       byte channel = encoders[i]->channel;
       usbMIDI.sendControlChange(cc, value, channel);
